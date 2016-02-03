@@ -28,9 +28,11 @@ $(function() {
       data.daily.data[2].humidity*100 + "%<br><br>";
 
     var markup = "<h2>Current Weather</h2>" + overview +
-      "<br>" + thisweek + tomorrow + dayaftertom + daysaway;
+      "<br>" + thisweek + tomorrow + dayaftertom + daysaway +
+      "<br><br><h2>Current Weather in Philadelphia</h2>" +
+      "It's Always Sunny in Philadelphia :)";
 
-
+    
     // End of your code
 
     $('.weather-report').html(markup);
